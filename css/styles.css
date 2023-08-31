@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: url(/img/8512533-numbers-on-blackboard.jpg);
+    background-size: cover;
+}
+.a {
+    background-color: white;
+    opacity: 80%;
+}
+#resultOne, #resultTwo, #resultThree, #resultFour, #resultFive {
+    padding: 50px;
+    margin-left: 100px;
+}
