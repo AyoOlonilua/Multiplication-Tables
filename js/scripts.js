@@ -59,8 +59,7 @@ $(document).ready(function() {
             });
         };
         everything4();
-
-
+        
         function everything5() {
             number.forEach(function(element) {
              answer5 = five * element;
@@ -71,9 +70,5 @@ $(document).ready(function() {
             });
         };
         everything5();
-        
-
-        
-    // $("#result").html(everything);
     });
 });
