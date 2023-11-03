@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
     <title>Multiplication Tables</title>
 </head>
-<body class="p-3">
+<body>
+    <div class="background">
+        <img src="img/8512533-numbers-on-blackboard.jpg" class="w-100" alt="">
+    </div>
+
     <header>
         <div class="container">
             <h1 class="text-center text-white font-weight-bold">Multiplication Tables</h1>
@@ -17,14 +21,16 @@
     </header>
     <hr class="bg-white">
     
-    <div class="container text-center">
-        <label class="d-block font-weight-bold text-white">Multiplication of Two-Five</label>
+    <section class="container w-100">
+        <div class="container text-center">
+            <label class="d-block font-weight-bold text-white">Multiplication of Two-Five (2-5)</label>
+    
+            <button type="submit" class="btn bg-white text-dark" id="table">Show
+            </button>
+        </div>
+    </section>
 
-        <button type="submit" class="btn bg-white text-dark" id="table">Show
-        </button>
-    </div>
-
-    <div class="a mt-3 d-flex">
+    <div class="a container mt-3 d-flex">
         <ul id="resultOne" class="d-block">
 
         </ul>
