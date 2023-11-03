@@ -3,15 +3,30 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-body {
-    background-image: url(/img/8512533-numbers-on-blackboard.jpg);
-    background-size: cover;
+.background img {
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    z-index: -1;
+    top: 0;
 }
 .a {
-    background-color: white;
+    background-color: black;
     opacity: 80%;
 }
-#resultOne, #resultTwo, #resultThree, #resultFour, #resultFive {
+ul {
+    list-style-type: square;
+}
+#resultOne {
     padding: 50px;
     margin-left: 100px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+}
+#resultTwo, #resultThree, #resultFour, #resultFive {
+    padding: 50px;
+    margin-left: 100px;
+    color: white;
+    font-size: 20px;
 }
